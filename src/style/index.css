@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "iranSans";
+    src: url("./fonts/IRANSansXFaNum-bold.woff2");
+    font-weight: 900
+}
+@font-face {
+    font-family: "iranSans";
+    src: url("./fonts/IRANSansXFaNum-medium.woff2");
+    font-weight: 500
+}
+@font-face {
+    font-family: "iranSans";
+    src: url("./fonts/IRANSansXFaNum-regular.woff2");
+    font-weight: 400
+}
+
+
+@import "tailwindcss";
