@@ -9,7 +9,9 @@ export function RouterPages() {
         <Route element={<AppLayout />}>
          {routesArray.map(page=><Route key={page.path} path={page.path} element={page.element} />)}
         </Route>
+        <Route path="*" element={<div>404</div>} />
       </Routes>
+    
     </BrowserRouter>
   );
 }

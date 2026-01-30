@@ -10,6 +10,7 @@ export const routesArray: { path: string; element: JSX.Element }[] = [
   {path:ROUTES.aboutUs,element:<AboutUs/>},
   {path:ROUTES.category,element:<Category/>},
   {path:ROUTES.product,element:<Product/>},
-  {path:ROUTES.auth,element:<Auth/>}
+  {path:ROUTES.auth,element:<Auth/>},
+
 
 ];
