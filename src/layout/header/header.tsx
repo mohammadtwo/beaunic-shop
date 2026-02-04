@@ -1,11 +1,11 @@
 import { NavBar } from "../../components/shared/navBar/navBar";
-import { Slider } from "../../components/shared/slider/slider";
+import { Banner } from "../../components/shared/slider/Banner";
 
 export function Header() {
   return (
     <header className=" w-full">
       <NavBar />
-      <Slider/>
+      <Banner/>
     </header>
   );
 }
