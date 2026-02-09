@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { ROUTES } from "../../routers/routes";
+import Colleagues from "./colleagues/Colleagues";
 
 export function Home() {
   return (
@@ -54,6 +55,7 @@ export function Home() {
         </div>
       </div>
       <div>product section</div>
+      <Colleagues/>
     </div>
   );
 }
