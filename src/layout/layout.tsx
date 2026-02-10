@@ -1,8 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Footer } from "./footer/footer";
 import { Header } from "./header/header";
-import { BestSellingProducts } from "../components/product/bestSellingProducts";
-import { LatestCosmeticsProducts } from "../components/product/latestCosmeticsProducts";
 
 export function AppLayout() {
   return (
@@ -11,8 +9,6 @@ export function AppLayout() {
       <div className="flex-1 ">
         <Outlet />
       </div>
-      <BestSellingProducts />
-      <LatestCosmeticsProducts/>
 
       <Footer />
     </div>
